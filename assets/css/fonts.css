@@ -1,0 +1,12 @@
+@font-face{
+    font-family: 'pacman';
+    src: url('../fonts/pacfont/PAC-FONT.TTF');
+}
+@font-face{
+    font-family: 'spaceInvaders';
+    src: url('../fonts/invaders_from_space/invaders_from_space.ttf');
+}
+@font-face{
+    font-family: 'classicSpace';
+    src: url('../fonts/spac3/Spac3\ Slim_ttf_free.ttf');
+}

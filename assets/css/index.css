@@ -1,0 +1,180 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+#bloc_page{
+    width: 98%;
+    margin: 0;
+    padding: 1%;
+    background-color: black;
+    color: white;
+}
+/*---------------------------*/
+
+header{
+    /*background-color: red;*/
+    margin: 1%;
+    padding: 1%;
+    border-bottom: 1px solid whitesmoke;
+}
+#titre_principal div{
+    display: flex;
+}
+header div figure img{
+    width: 7em;
+    height: 7em;
+}
+header div h1{
+    font-family: 'pacman';
+    font-size: xx-large;
+}
+header p{
+    margin-left: 1em;
+    color: red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#titre_principal{
+    background-color: rgb(60, 60, 60);
+    border-radius: 7px;
+    margin: 1%;
+    width: 45%;
+    height: 150px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(60,60,60);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 7px;
+    margin: 1%;
+    width: 50%;
+    margin-left: 50%;
+}
+header nav a{
+    text-decoration: none;
+    color: white;
+    padding: 7px 15px 7px 15px;
+}
+header nav a:hover{
+    cursor: pointer;
+    background-color: black;
+    border-radius: 7px 0 7px 0;
+}
+/*---------------------------*/
+
+#banniere_image{
+    box-shadow: 0px 3px 5px white;
+    border-radius: 7px;
+    font-family: 'spaceInvaders';
+    font-size: 5em;
+    margin: 1%;
+    padding: 1%;
+    height: 70px;
+}
+#banniere_image span{
+    background-color: rebeccapurple;
+}
+/*----------------------------*/
+
+section{
+    border-bottom: 1px solid white;
+    margin: 1%;
+    padding: 1%;
+    display: flex;
+    justify-content: space-between;
+}
+article{
+    border-radius: 7px;
+    border: 2px solid red;
+    width: 75%;
+    min-height: 300px;
+    padding: 1%;
+    /*width: 79.5%;*/
+    
+}
+aside{
+    background-color: rgb(60,60,60);
+    border-radius: 7px;
+    box-shadow: 3px 3px 4px red;
+    width: 19.5%;
+    height: 250px;
+}
+aside h2{
+    font-family: 'classicSpace';
+    text-align: center;
+}
+aside figure{
+    display: flex;
+    justify-content: space-between;
+}
+aside figure figcaption{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+aside figure img{
+    width: 35px;
+    height: 35px;
+}
+
+#triangle{
+    clear: both;
+    position: absolute;
+    right: 21.3%;
+    margin-top: 2%;
+    width: 30px;
+    height: 30px;
+    clip-path: polygon(100% 100%,50% 50%,100% 0);
+    background-color: rgb(60,60,60);
+    /*transform: rotate(180deg);*/
+}
+/*----------------------------*/
+
+footer{
+    margin: 1%;
+    padding: 1%;
+    display: flex;
+    justify-content: space-evenly;
+}
+footer div{
+    border-radius: 7px;
+    min-width: 33%;
+    margin: 0.5%;
+}
+footer div h3{
+    font-family: 'classicspace';
+}
+footer div *{
+    padding: 1% 2% 1% 2%;
+}
+#tweet{
+    background-color: blueviolet;
+}
+#mes_photo{
+    background-color: green;
+}
+#mes_photo table, table tr, table tr td figure{
+    margin: 0;
+    padding: 0;
+}
+#mes_photo table tr:nth-child(1) td figure img{
+    width: 100%;
+}
+#mes_photo table tr:nth-child(2) td figure img{
+    height: 7em;
+}
+#Bpacman, #Bspace{
+    float: right;
+}
+#Bgalaga, #Bcentiped{
+    float: left;
+}
+#mes_amis{
+    background-color: gray;
+}
+#mes_amis table{
+    width: 100%;
+}
+#mes_amis table tr td ul li{
+    list-style-type: circle;
+}
