@@ -92,7 +92,15 @@ article{
     min-height: 300px;
     padding: 1%;
     /*width: 79.5%;*/
-    
+}
+#titreContainer{
+    display: flex;
+}
+#sms{
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    clip-path: polygon(0 0,100% 0,100% 50%,30% 50%,10% 70%,10% 50%,0 50%);
 }
 aside{
     background-color: rgb(60,60,60);
@@ -150,8 +158,13 @@ footer div *{
 #tweet{
     background-color: blueviolet;
 }
+#tweet iframe{
+    border: 0;
+    width: 350px;
+    height: 250px;
+}
 #mes_photo{
-    background-color: green;
+    background-color: forestgreen;
 }
 #mes_photo table, table tr, table tr td figure{
     margin: 0;
